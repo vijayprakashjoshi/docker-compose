@@ -4,7 +4,7 @@ Docker-Compose with Nginx + Prometheus + AlertManager
 Overview
 --------
 
-This project was designed to create containers using [docker-compose] (https://docs.docker.com/compose/). It will have `Nginx` container which will be monitored by [Prometheus] (https://prometheus.io/) and incase Nginx instance go down `Prometheus` will send the alert to [AlertManager] (https://prometheus.io/docs/alerting/latest/alertmanager/).
+This project was designed to create containers using [docker-compose](https://docs.docker.com/compose/). It will have `Nginx` container which will be monitored by [Prometheus](https://prometheus.io/) and incase Nginx instance go down `Prometheus` will send the alert to [AlertManager](https://prometheus.io/docs/alerting/latest/alertmanager/).
 
 Installation
 -------------
@@ -32,9 +32,9 @@ cd <Repo>
 
 This Repo contains `docker-compose.yaml` file which has the details of 3 services (`Nginx`, `Prometheus` & `AlertManager`) which we will be creating.
 All of the above services will have their own frontends available to interact with using following links:
-- [Nginx UI] (http://localhost:8000/)
-- [Prometheus UI] (http://localhost:9000/)
-- [AlertManager UI] (http://localhost:9093/)
+- [Nginx UI](http://localhost:8000/)
+- [Prometheus UI](http://localhost:9000/)
+- [AlertManager UI](http://localhost:9093/)
 
 You will find the Service Specific folders which contains the configs needed to spin up these services.
 
